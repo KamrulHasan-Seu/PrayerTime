@@ -1,0 +1,52 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("./components/salah.com.bg.png");
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #2ca4ab
+}
+
+.title{
+  padding: 5px;
+  color: #2ca4ab
+}
+.searchDiv{
+  padding-bottom: 50px;
+  padding-top: 50px
+}
+.searchForm{
+  text-align: center;
+}
+.searchForm input {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #2ca4ab;
+  padding: 15px ;
+  margin-right: 10px;
+  width: 15%
+}
+.searchDiv button{
+  padding: 17px;
+  width: 80px;
+  background-color: #2ca4ab;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.time h1{
+  text-align: center;
+  color: #fff
+}
+
+.displayTime {
+  display: block;
+  overflow-y: auto;
+  height: 600px;
+}
